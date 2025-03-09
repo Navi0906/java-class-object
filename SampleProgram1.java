@@ -8,10 +8,10 @@ public class SampleProgram1{
 
         System.out.println("===Restaurant 1===");
         restaurant1.displayDetails();
-        System.out.println("/n===Restaurant 2===");
+        System.out.println("\n===Restaurant 2===");
         restaurant2.displayDetails();
 
-        System.out.println("/nChecking Food Availability:");
+        System.out.println("\nChecking Food Availability:");
         System.out.println("Is Pasta available in Italian Delight? "+restaurant1.isFoodAvailable("Pasta"));
         System.out.println("Is Sushi available in Italian Delight? "+restaurant1.isFoodAvailable("Sushi"));
     }
