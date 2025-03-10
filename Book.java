@@ -16,7 +16,7 @@ class Book {
         System.out.println("Book Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Price: INR" + price);
-        System.out.println("------------------------");
+        System.out.println("-----------------------");
     }
 
     public static void main(String[] args) {
